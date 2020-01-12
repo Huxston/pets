@@ -1,0 +1,206 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: Optima;
+	background-color: #3A667F;
+	margin: 0px;
+	font-size: 2vw;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2vw;
+}
+a:hover {
+	color: #262626;
+}
+
+.section2{
+	background-color: #C2E2D3;
+	padding: 5% 5% 12%;
+	margin-top: 17.4%;
+}
+
+.section3{
+	margin: 10% 5%;
+}
+
+.section4{
+	background-color: #C2E2D3;
+	padding: 5% 5% 12%;
+	margin-top: 13%;
+}
+
+.question{
+	margin-top: 10%;
+}
+
+.steps{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.step1{
+	margin-top: 10%;
+}
+
+.download-section2{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin-left: 20%;
+}
+
+.download-section4{
+	display: flex;
+}
+
+.app-store4{
+	margin: 6% 13%
+
+}
+
+.img-section4{
+	max-width: 250px;
+	
+}
+
+h1{
+	font-family: Leo Arrow;
+	font-size: 4.5vw;
+	margin: 0px;
+}
+h2{
+	font-size: 3vw;
+	text-align: center;
+}
+h3{
+	font-size: 4vw;
+	text-align: center;
+}
+h4 {
+	font-size: 2vw;
+	margin: 0px;
+}
+p{
+	text-align: center;
+	align-self: center;
+}
+
+img {
+	width: 100%;
+}
+
+.step-img{
+	width: 20%;
+	margin-right: 20%;
+}
+
+
+
+
+
+.app-store-section2{
+	margin-bottom: 5%;
+}
+
+.play-store-section2{
+	margin-top: 5%;
+}
+
+
+
+.header{
+	display: grid;
+	grid-template-columns: 15% 55% 15% 15%;
+  	grid-template-rows: 20% auto 20%;
+  	margin: 0px;
+}
+.too-soon{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-color: #C2E2D3;
+	padding-bottom: 20%;
+}
+.header-menu-container{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+}
+
+.header-menu{
+	list-style-type: none;
+	display: block;
+	width: 100%;
+}
+
+.menu-item{
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.app-container{
+	grid-column-start: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	align-self: center;
+}
+
+.app-promo{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	display: grid;
+	margin-top: 25%;
+	margin-bottom: 25%;
+	grid-template-columns: 15% 5% 30% 30% 20%;
+	grid-template-rows: 60% 20% 10% 20%;
+}
+
+.logo-container{
+	grid-column-start: 1;
+  	grid-row-start: 1;
+  	align-self: center;
+}
+
+.app-name{
+	grid-column-start: 3;
+	grid-column-end: 5;
+  	grid-row-start: 1;	
+  	align-self: end;
+}
+
+.app-slogan{
+	grid-column-start: 3;
+	grid-column-end: 5;
+  	grid-row-start: 2;	
+  	align-self: start;
+  	padding-top: 3%;
+}
+
+.download-container{
+	display: flex;
+	grid-column-start: 3; 
+	grid-column-end: 5; 
+	grid-row-start: 4;
+	align-self: end;
+}
+
+.download-apple{
+	width: 30%;
+	padding-right: 5%;
+}
+
+.download-google{
+	width: 30%;
+	padding-right: 5%;
+}
+
